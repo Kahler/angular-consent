@@ -178,12 +178,12 @@ Void.
 
   <section ng-if="$consent.hasNotAgreedYet()">
     <p>This message will keep appearing until you agree</p>
-    <button ng-click="$consent.agree()">Agree</p>
+    <button ng-click="$consent.agree()">Agree</button>
   </section>
   
   <section ng-if="$consent.hasAlreadyAgreed()">
     <p>This message will appear when user has already agreed</p>
-    <button ng-click="$consent.reset()">Try again</p>
+    <button ng-click="$consent.reset()">Try again</button>
   </section>
   
 </section>
